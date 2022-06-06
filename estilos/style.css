@@ -1,0 +1,108 @@
+@charset "UTF-8";
+#logoParadxs {
+  width: 7.5rem;
+  margin-left: 10px;
+}
+
+#shadow-divider {
+  bottom: 1px;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 1px 1px #e9e9e9;
+          box-shadow: 0px 0px 1px 1px #e9e9e9;
+  margin-top: 10px;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.textoInicio {
+  padding-left: 20px;
+}
+
+.iconosFooter {
+  width: 20px;
+  padding-bottom: 13px;
+}
+
+.textoFooter {
+  padding-left: 15px;
+}
+
+.footer {
+  background-color: #7e0001;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 3rem;
+  bottom: 0;
+}
+
+.iconosFooter:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+/* en la página ayudanos */
+/* mapa */
+.btn--enviar {
+  color: #4FBB2C;
+}
+
+.btn--resetear {
+  color: #BB2C2C;
+}
+
+/* extend */
+.textoForm, .textoform--1, .textoform--2 {
+  color: saddlebrown;
+  padding: 1px;
+}
+
+.textoform--1 {
+  background-color: aqua;
+}
+
+.textoform--2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* mixin */
+.myMixin {
+  height: 60px;
+  width: 400;
+  background-color: aqua;
+  text-align: center;
+}
+
+.formulario {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f0efef;
+  margin: 2rem;
+}
+
+.imagen-sumate-militar {
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.encabezadoH1 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.imagenFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

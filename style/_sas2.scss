@@ -1,0 +1,45 @@
+/* en la página ayudanos */
+
+/* mapa */
+
+$botones:(
+    enviar: #4FBB2C,
+    resetear: #BB2C2C,
+);
+
+@each $boton, $color in $botones {
+    .btn--#{$boton}{
+        color: $color;
+    }
+};
+
+/* extend */
+
+.textoForm{
+    color: saddlebrown;
+    padding: 1px;
+}
+
+.textoform--1{
+    @extend.textoForm;
+    background-color: aqua;
+}
+
+.textoform--2{
+    @extend.textoForm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* mixin */
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.myMixin{
+    @include sizes (400, 60px);
+    background-color: aqua;
+    text-align: center;
+}
