@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #logoParadxs {
   width: 7.5rem;
   margin-left: 10px;
@@ -45,38 +44,6 @@
           transform: scale(1.1);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
-}
-
-/* en la página ayudanos */
-/* mapa */
-.btn--enviar {
-  color: #4FBB2C;
-}
-
-.btn--resetear {
-  color: #BB2C2C;
-}
-
-/* extend */
-.textoForm, .textoform--1, .textoform--2 {
-  color: saddlebrown;
-  padding: 1px;
-}
-
-.textoform--1 {
-  background-color: aqua;
-}
-
-.textoform--2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-/* mixin */
-.myMixin {
-  height: 60px;
-  width: 400;
-  background-color: aqua;
-  text-align: center;
 }
 
 .formulario {
